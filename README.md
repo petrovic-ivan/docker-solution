@@ -1,3 +1,3 @@
 # docker-solution
 
-Example of muli-container application.
+Example of multi-container application.
