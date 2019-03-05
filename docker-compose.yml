@@ -19,7 +19,7 @@ services:
       - PGDATABASE=postgres
       - PGPASSWORD=postgres_password
       - PGPORT=5432
-  api:
+  client:
     build: 
       dockerfile: Dockerfile.dev
       context: ./client
