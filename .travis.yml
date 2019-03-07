@@ -13,4 +13,8 @@ after_success:
   - docker build -t kat1330/docker-solution-nginx ./nginx
   - docker build -t kat1330/docker-solution-api ./api
   - docker build -t kat1330/docker-solution-worker ./worker
-
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker push kat1330/docker-solution-client
+  - docker push kat1330/docker-solution-nginx
+  - docker push kat1330/docker-solution-api
+  - docker push kat1330/docker-solution-worker
