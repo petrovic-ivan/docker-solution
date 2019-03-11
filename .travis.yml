@@ -24,7 +24,7 @@ deploy:
   region: "us-west-1"
   app: "docker-solution"
   env: "DockerSolution-env"
-  bucket_name: "arn:aws:s3:::elasticbeanstalk-us-west-1-221954440452"
+  bucket_name: "elasticbeanstalk-us-west-1-221954440452"
   bucker_path: "docker-solution"
   access_key_id: 
       secure: "$AWS_ACCESS_KEY"
