@@ -9,7 +9,7 @@
         },
         {
             "name": "server",
-            "image": "kat1330/docker-solution-server",
+            "image": "kat1330/docker-solution-api",
             "hostname": "api",
             "essential": false,
             "memory": 128
